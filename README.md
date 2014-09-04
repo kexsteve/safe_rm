@@ -1,11 +1,5 @@
-sh-goodies
+safe_rm
 ==========
-
-A collection of bash shell scripts that I wrote.
-
-#####Update 8/24/2014
-  Added safe_rm and safe_rm_restore 
-
 #####Safe RM project initial release notes
   The purpose of this script is to create a recycle bin for UNIX environment. Instead of deleting a file permanently using the command rm, safe_rm will stored it into a recycle bin and has the ability to restore the file to its original location using safe_rm_restore. This will recreate the entire directory structures if they do not exist.
   *  Create a recycle bin at $HOME/deleted (default).
